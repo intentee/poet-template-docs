@@ -1,15 +1,27 @@
 # Poet
 
-## Usage
+Poet is a modern static site generator designed to provide interactivity to your content.
 
-Generate output files:
+## Using Poet
 
-```sh
-poet generate . --public-path http://127.0.0.1:8080/ --output-directory output
+If you have GNU Make installed, you can run the following to run Poet:
+
+```bash
+make watch
 ```
 
-Watch:
+Alternatively, you can achieve the same with the following:
 
-```sh
-poet watch .
+```bash
+npm install
 ```
+
+and then:
+
+```bash
+./jarmuz-watch.mjs
+```
+
+## Documentation
+
+You will find Poet's documentation and guides at: https://poet.intentee.com/
