@@ -1,4 +1,5 @@
 +++
+description = "Create reusable components and use them in markdown and layout files in the exact same way."
 layout = "LayoutDocumentationPage"
 title = "Components"
 

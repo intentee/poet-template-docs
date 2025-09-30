@@ -1,5 +1,6 @@
 +++
 id = "example-page"
+description = "Take a look at the example pages included in this documentation template."
 layout = "LayoutDocumentationPage"
 title = "Start here"
 
