@@ -4,7 +4,7 @@ import { jarmuz } from "jarmuz";
 
 jarmuz({
   once: true,
-  pipeline: ["tcm", "tsc", "esbuild-development", "poet-generate"],
+  pipeline: ["tcm", "tsc", "esbuild-development", "poet-make-static-pages"],
   watch: ["resources"],
 }).decide(function ({ schedule }) {
   schedule("tcm");
